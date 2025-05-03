@@ -209,6 +209,5 @@ aztec add-l1-validator \
   --staking-asset-handler 0xF739D03e98e23A7B65940848aBA8921fF3bAc4b2 \
   --l1-chain-id 1 
 
-![439840617-ed683c0c-251e-4049-9479-fd4ec86ee640](https://github.com/user-attachments/assets/935f10a4-52bc-4bcf-be0a-a08331e2aa86)
 
 
