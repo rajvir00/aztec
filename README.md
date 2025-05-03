@@ -1,13 +1,10 @@
-# aztec-sequencer-setup-guide
-
-- Pc or VPS
-- docker 
-- at least 5GB of ram.
-
 ## Node Guide :
 
 This will work on Mac and Linux based devices.
-
+- Pc or VPS
+- docker 
+- at least 5GB of ram.
+- 
 ### Step 1 : Install dependencies 
 
 MacOS
@@ -100,14 +97,14 @@ Save the Ip gotten.
 Open your ports 
 ```bash
 # Firewall
-ufw allow 22
-ufw allow ssh
-ufw enable
+sudo ufw allow 22
+sudo ufw allow ssh
+sudo ufw enable
 ```
 ```bash
 # Sequencer
-ufw allow 40400
-ufw allow 8080
+sudo ufw allow 40400
+sudo ufw allow 8080
 ```
 
 ### Step 4 : create and env file to store sensitive details
