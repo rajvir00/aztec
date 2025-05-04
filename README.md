@@ -4,7 +4,7 @@ This will work on Mac and Linux based devices.
 - Pc or VPS
 - docker 
 - at least 5GB of ram.
-- 
+ 
 ### Step 1 : Install dependencies 
 
 MacOS
@@ -139,6 +139,8 @@ source ~/.aztec-sequencer.env
 ```
 
 ### Step 5 : Start The Sequencer Node
+
+- **Note**- Load some sepolia before this step
 
 ```bash
 screen -S Aztec
